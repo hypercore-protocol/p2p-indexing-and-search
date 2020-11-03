@@ -8,7 +8,7 @@ We'll put Hyperbee through its paces, first exploring large, real-world datasets
 Throughout these exercises, we'll be using the [Hypercore Protocol](https://hypercore-protocol.org), a collection of modules for building and sharing P2P data structures. Each exercise builds on the previous, but feel free to jump around according to your familiarity with the concepts!
 
 ## Getting Started
-Everyone should do [Problem 1](problems/00.md), to make sure things are set up correctly.
+Everyone should do [Problem 1](problems/01.md), to make sure things are set up correctly.
 
 ## Not familiar with Hypercore?
 [Problems 2-3](problems/02.md) give a bit of background, and will introduce you to the basics of creating append-only logs (Hypercores) and sharing them with peers.
