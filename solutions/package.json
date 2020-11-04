@@ -1,0 +1,19 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@corestore/networker": "^1.0.4",
+    "hyperbee": "0.0.18",
+    "hyperspace": "^3.12.0",
+    "process-top": "^1.2.0",
+    "websters-english-dictionary": "^2.0.0"
+  }
+}
