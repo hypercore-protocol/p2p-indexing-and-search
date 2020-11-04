@@ -31,8 +31,9 @@ async function start () {
   console.log('Built secondary index, running test queries...')
 
   const queries = [
-    // { gt: '35/', lt: '36/' },
+    { gt: '35/', lt: '36/' },
     { gt: '45/b', lt: '45/c' },
+    { gt: '22/', lt: '23/', limit: 10 }
   ]
 
   for (const query of queries) {
@@ -40,7 +41,7 @@ async function start () {
     for await (const record of db.createReadStream(query)) {
       resultSet.push(record)
     }
-    console.log('query:', query, 'results:', resultSet, 'length:', resultSet.length)
+    console.log('query:', query, 'results:', resultSet)
   }
 }
 
