@@ -5,7 +5,7 @@ const { Client } = require('hyperspace')
 const top = require('process-top')()
 
 const STATS_CORE_KEY = 'ebcd9b99efb4ba8661076dd7e7a886cc5380a3f5998f16bfeeaaecfe0885de4a'
-const TARGET = new Date('2020-11-03T23:00:02.700Z')
+const TARGET = '2020-11-03T23:00:02.700Z'
 
 start()
 
