@@ -19,5 +19,8 @@ If you've already worked with Hypercore, but want to learn about designing appen
 ## Just want to play with Hyperbee?
 If you know how append-only data structures work, and you just want to play around with Hyperbee, head over to [Problem 7](problem/07.md).
 
+## Chat with us
+Come join our [Discord](https://chat.hypercore-protocol.org) to ask questions!
+
 ### License
 MIT
