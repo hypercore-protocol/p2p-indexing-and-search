@@ -23,7 +23,8 @@ async function start () {
   await new Promise(resolve => setTimeout(resolve, 5000))
 
   // Get the stats from ~2.5s ago.
-  const stats = await findClosest(core, new Date(Date.now() - (2.5 * 1e3)))
+  const target = (new Date(Date.now() - (2.5 * 1e3))).toISOString()
+  const stats = await findClosest(core, target)
   console.log('Stats from ~2.5s ago:', stats)
 }
 
