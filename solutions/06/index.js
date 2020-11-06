@@ -54,13 +54,6 @@ async function naiveClosestStats (core, target) {
   return null
 }
 
-async function getClosestStatsBisect(core, target) {
-  return bisect(core, target, {
-    get: idx => core.get(idx),
-    map: block => block.timestamp
-  })
-}
-
 async function bisectClosestStats (core, target) {
   let lower = 0
   let upper = core.length
