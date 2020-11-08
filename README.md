@@ -14,10 +14,10 @@ Everyone should first read [Problem 0](problems/00.md) as an orientation, then d
 [Problems 2-3](problems/02.md) give a bit of background, and will introduce you to the basics of creating append-only logs (Hypercores) and sharing them with peers.
 
 ## Want to build data structures using Hypercores?
-If you've already worked with Hypercore, but want to learn about designing append-only data structures on top of it, using embedded indexes, go ahead and jump to [Problem 4](problems/04.md).
+If you've already worked with Hypercore, but want to learn about designing append-only data structures on top of it, using embedded indexes, go ahead and jump to [Problem 4](problems/04a.md).
 
 ## Just want to play with Hyperbee?
-If you know how append-only data structures work, and you just want to play around with Hyperbee, head over to [Problem 7](problem/07.md).
+If you know how append-only data structures work, and you just want to play around with Hyperbee, head over to [Problem 7](problems/07.md).
 
 ## Chat with us
 Come join our [Discord](https://chat.hypercore-protocol.org) to ask questions!
