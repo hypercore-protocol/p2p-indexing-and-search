@@ -3,7 +3,6 @@
 
 const { Client } = require('hyperspace')
 const Hyperbee = require('hyperbee')
-const lexint = require('lexicographic-integer')
 const { kvPairs: dictionaryPairs } = require('websters-english-dictionary')
 
 // Toggle this on-and-off to see how long a full scan takes.
